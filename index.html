@@ -10,6 +10,9 @@
             <!-- Viewport meta tag -->
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+            <!-- Fontawesome Icons -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
             <!-- Gridlex -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     
@@ -21,64 +24,73 @@
     </head>
     <body>
         <!------- Header ------->
-        <header>
+        <header class="padded bg-image light-bed">
             <h3>sleep like a baby</h3>
             <h1>the ultimate matress solution</h1>
         </header>
 
-        <!------- Info Section ------->
+        <!------- Features Section ------->
         <section class="grid">
             <!-- Group 1 -->
-            <div class="col-6">
+            <div class="col-6 padded">
                 <h2>Built to last a lifetime</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci omnis maxime explicabo illo hic. Saepe quisquam suscipit voluptatum laboriosam facere pariatur sed necessitatibus atque molestias repellendus ex, eaque accusamus eum!</p>
             </div>
-            <div class="col-6 bg-image"></div>
+            <div class="col-6 bg-image dark-bed">
+                <!-- bed image -->
+            </div>
             <!-- Group 2 -->
-            <div class="col-6 bg-image"></div>
-            <div class="col-6">
+            <div class="col-6 bg-image pug">
+                <!-- sleeping pug image -->
+            </div>
+            <div class="col-6 padded">
                 <h2>So soft you'll melt</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci omnis maxime explicabo illo hic. Saepe quisquam suscipit voluptatum laboriosam facere pariatur sed necessitatibus atque molestias repellendus ex, eaque accusamus eum!</p>
             </div>
         </section>
 
-        <!------- Features Section ------->
-        <section class="grid">
+        <!------- Icons Section ------->
+        <section class="grid padded">
             <h2 class="col-12">Features you'll love</h2>
-            <div class="col-3">
+            <div class="col-3 padded-sm">
+                <i class="fas fa-cloud"></i>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quam tenetur aspernatur omnis eveniet adipisci voluptate? Saepe porro doloremque.</p>
             </div>
-            <div class="col-3">
+            <div class="col-3 padded-sm">
+                <i class="fas fa-cloud"></i>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quam tenetur aspernatur omnis eveniet adipisci voluptate? Saepe porro doloremque.</p>
             </div>
-            <div class="col-3">
+            <div class="col-3 padded-sm">
+                <i class="fas fa-cloud"></i>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quam tenetur aspernatur omnis eveniet adipisci voluptate? Saepe porro doloremque.</p>
             </div>
-            <div class="col-3">
+            <div class="col-3 padded-sm">
+                <i class="fas fa-cloud"></i>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quam tenetur aspernatur omnis eveniet adipisci voluptate? Saepe porro doloremque.</p>
             </div>
         </section>
 
         <!------- Banner ------->
-        <section>
-            <h3>Never underestimate the power of </h3>
-            <h4>a good night sleep</h4>
+        <section class="padded bg-image pillow">
+            <h3>Never underestimate the power of a good night sleep</h3>
         </section>
 
         <!------- Testimonial ------->
-        <section class="grid">
-            <div class="col-2"></div>
+        <section class="grid padded">
+            <div class="col-2">
+                <span>"</span>
+            </div>
             <div class="col-8">
                 <p>I've never experienced sleep like this. I want to buy one for every member of my family.</p>
-            </div>
-            <div class="col-2"></div>
-            <div class="col-12">
                 <p>- a very happy customer</p>
+            </div>
+            <div class="col-2">
+                <span>"</span>
             </div>
         </section>
 
         <!------- Footer ------->
-        <footer class="grid">
+        <footer class="grid padded">
             <div class="col-6">
                 <h2>Let's connect</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur aliquid tenetur velit iste? Itaque atque magnam eaque necessitatibus tempore harum consequuntur dicta architecto suscipit nihil repellendus, ratione, eligendi rerum eum?</p>
