@@ -9,20 +9,10 @@ img {max-width: 100%;}
 
 /* Temporary Styles */
 
-* {
-    padding: 0.5rem;
-    border: 2px solid rgb(200,200,200);
-} 
-
 html, 
 body {
-    border: none;
+    font-family: 'Catamaran', sans-serif;
 }
-
-h1,h2,h3,h4,h5,h6,p, a {
-    border: 2px solid rgb(21, 169, 180);
-}
-
 
 /* Resetting Gridlex Padding */ 
 [class*=col-] {
@@ -30,6 +20,10 @@ h1,h2,h3,h4,h5,h6,p, a {
     }
 
 /* Universal Styles */
+body {
+    color: #192B37;
+}
+
 .bg-dark {
     background-color: #192B37;
     color: white;
@@ -123,6 +117,8 @@ p:last-child {
 .text-right  { text-align: right;  }
 .text-center { text-align: center; }
 
+.featured-text {color: #FFBE00;}
+
 /* Background Image Utility Classes */ 
 .bg-image, 
 [class*=bg-image] {
@@ -156,3 +152,16 @@ p:last-child {
 .dark-bed  { background-image: url(/images/the-sleep-co-2.jpg); }
 .pillow    { background-image: url(/images/the-sleep-co-3.jpg); }
 .pug       { background-image: url(/images/the-sleep-co-4.jpg); }
+
+
+/* Header Styles */
+header h3 {
+    font-size: 5.5rem;
+    line-height: 1;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1;
+}
