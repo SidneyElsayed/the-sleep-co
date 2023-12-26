@@ -204,8 +204,10 @@ header h1 {
 
 /* Icon Styles */
 .icon {
-    display: inline-block;
+    display: block;
     text-align: center;
+    margin-bottom: 1rem;
+    font-size: 4rem;
 }
 
 .quote-icon {
@@ -241,6 +243,8 @@ footer a{
     .padded-3-sm  { padding: 3rem; }
 
     .margin-t-2-sm {margin-top: 2rem;}
+
+    .icon-sm {font-size: 3rem;}
 }
 
 /* Gridlex xs media query Max 576px _sm-* */
