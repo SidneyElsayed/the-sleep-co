@@ -21,6 +21,9 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet">
 
+            <!-- Animate on Scroll -->
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
             <!-- My own custom stylesheet -->
             <link rel="stylesheet" href="/style.css">
        
@@ -28,7 +31,7 @@
     <body>
 
                 <!------- Header ------->
-        <header class="grid bg-image light-bed tall-80 md-tall-70">
+        <header class="grid bg-image light-bed tall-90 md-tall-70">
             
             <div class="col-12-top grid">
     <div class="col-5_sm-10-middle sm-padded-b-0">
@@ -49,7 +52,7 @@
     </div>
 </div>
 
-<nav class="mob-menu mob-show">
+<nav class="mob-menu mob-show bg-featured padded">
     <a href="/index.html">Home</a>
     <a href="/about.html">About</a>
     <a href="/products.html">Products</a>
@@ -58,8 +61,8 @@
         
             <div class="col-12-middle padded-lg text-center">
                 <div>
-                    <h3><span class="featured-text">sleep</span> like a baby</h3>
-                    <h1>the ultimate matress solution</h1>
+                    <h3 data-aos="fade-in" data-aos-duration="1000"><span class="featured-text">sleep</span> like a baby</h3>
+                    <h1 data-aos="fade-up" data-aos-delay="500">the ultimate matress solution</h1>
                 </div>
             </div>
         </header> 
@@ -67,7 +70,7 @@
         <!------- Features Section ------->
         <section class="grid">
             <!-- Group 1 -->
-            <div class="col-6_sm-12 padded padded-3-sm tall-50">
+            <div class="col-6_sm-12 padded padded-3-sm tall-50" data-aos="fade-right">
                 <h2 class="text-center-sm">Built to last a <span class="featured-text">lifetime</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci omnis maxime explicabo illo hic. Saepe quisquam suscipit voluptatum laboriosam facere pariatur sed necessitatibus atque molestias repellendus ex, eaque accusamus eum! Saepe quisquam suscipit voluptatum laboriosam facere pariatur sed necessitatibus atque molestias repellendus ex, eaque accusamus.</p>
             </div>
@@ -79,7 +82,7 @@
             <div class="col-6_sm-12 bg-image pug tall-50 mob-hide">
                 <!-- sleeping pug image -->
             </div>
-            <div class="col-6_sm-12 padded padded-3-sm tall-50">
+            <div class="col-6_sm-12 padded padded-3-sm tall-50" data-aos="fade-left">
                 <h2 class="text-center-sm">So <span class="featured-text">soft</span> you'll melt</h2>
                 <p>Lorem ipsum dolor sit amet Saepe quisquam suscipit voluptatum laboriosam facere pariatur sed necessitatibus atque molestias repellendus ex, eaque accusamus consectetur adipisicing elit. Adipisci omnis maxime explicabo illo hic. Saepe quisquam suscipit voluptatum laboriosam facere pariatur sed necessitatibus atque molestias repellendus ex, eaque accusamus eum!</p>
             </div>
@@ -144,6 +147,10 @@
 
         <!------- Added jquery ------->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!------- Animate on Scroll ------->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
         <!------- Our custom javascript file ------->
         <script src="/scripts.js"></script>
